@@ -280,13 +280,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #76c8ac;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  color: #ff8b5b;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -4244,11 +4244,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 15px;
+  color: #76c8ac;
 }
 .pager li > a:hover,
 .pager li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  color: #ff8b5b;
 }
 .pager .next > a,
 .pager .next > span {
