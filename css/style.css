@@ -145,7 +145,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background:#76c8ac;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -161,12 +161,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:#ff8b5b !important;
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #76c8ac;
 	text-decoration:none;
 	color:#fff !important;
 }
