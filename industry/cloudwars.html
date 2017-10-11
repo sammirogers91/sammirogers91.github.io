@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <meta name="description" content="AWS vs. GCP vs. Azure.">
+
+    <title>Project 0 - Cloud Wars</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600'
+        rel='stylesheet' type='text/css'>
+
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+    <script type="text/javascript" src="../js/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="../js/classie.js"></script>
+
+    <!-- =======================================================
+    Theme Name: Knight
+    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+
+</head>
+
+<body>
+
+    <!--NAV BAR-->
+    <nav class="main-nav-outer" id="test">
+        <div class="container">
+            <ul class="main-nav">
+                <li><a href="../index.html#industry">The Industry</a></li>
+                <li><a href="../index.html#tools">The Tools</a></li>
+                <li class="small-logo"><a href="../index.html#intro"><img src="../img/small-logo.png" alt=""></a></li>
+                <li><a href="../index.html#code">The Code</a></li>
+                <li><a href="../index.html#methodology">The Methodology</a></li>
+            </ul>
+            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!--CONTENT-->
+    <section class="main-section">
+        <div class="container animated fadeInUp delay-001s">
+            <h2>Cloud Wars</h2>
+            <h6>Cloud Wars: Amazon (AWS) vs. Google (GCP) vs. Microsoft (Azure)</h6>
+            <div class="panel panel-default">
+                <div class="panel-heading">Outline</div>
+                <div class="panel-body">
+                    <ul>
+                        <li>Azure has been catching up to AWS</li>
+                        <li>Cloud computing vs. traditional design</li>
+                        <ul>
+                            <li>Traditional:</li>
+                            <ul>
+                                <li>Massive up-front cost, big “steps”</li>
+                                <li>IT staff: focus on the data center</li>
+                                <li>In-house knowledge limits</li>
+                                <li>Recreate the wheel</li>
+                                <li>It’s yours</li>
+                                <li>“Monster server” capabilities”</li>
+                            </ul>
+                            <li>Cloud:</li>
+                            <ul>
+                                <li>Pay as you go, pricing models</li>
+                                <li>Elastic computing, grow as needed</li>
+                                <li>Economy of scale</li>
+                                <li>Immediate security accreditation</li>
+                                <li>Multiple data centers easily</li>
+                                <li>Collaborative innovation</li>
+                                <li>Horizontal scaling</li>
+                                <ul>
+                                    <li>Biggest difference between the two</li>
+                                    <li>When you set up a data center, it costs a lot for the routers, switches, servers, etc;
+                                        overprovisioning is a problem</li>
+                                    <li>In cloud, there’s little waste if any</li>
+                                    <li>Traffic patterns go up AND down (ex. holidays)</li>
+                                </ul>
+                            </ul>
+                        </ul>
+                        <li>Building a cloud presence: Amazon AWS</li>
+                        <ul>
+                            <li>Pick your region</li>
+                            <ul>
+                                <li>What region of the world do you want to be in</li>
+                            </ul>
+                            <li>Pick your availability zone</li>
+                            <ul>
+                                <li>What zone inside region do you want to be in (data center)</li>
+                            </ul>
+                            <li>Provision your server</li>
+                            <li>Configure services</li>
+                            <li>Expand to other availability zones</li>
+                            <li>Expand to other regions</li>
+                        </ul>
+                        <li>Understanding AWS Services</li>
+                        <ul>
+                            <li>Cloudwatch</li>
+                            <li>SimpleDB/DynamoDB</li>
+                            <li>Elastic Computer Cloud (EC2)</li>
+                            <ul>
+                                <li>Virtual server in the cloud</li>
+                            </ul>
+                            <li>Simple Storage Service (S3)</li>
+                            <ul>
+                                <li>Designed for massive amount of data storage</li>
+                                <li>Can be web accessible</li>
+                            </ul>
+                            <li>Elastic Block Store (EBS)</li>
+                            <ul>
+                                <li>Storage your server uses</li>
+                            </ul>
+                            <li>Route 33</li>
+                            <li>Virtual PRivate Cloud (VPC)</li>
+                            <li>Auto Scaling</li>
+                            <ul>
+                                <li>Goes with EC2</li>
+                                <li>Add or decrease servers as needed</li>
+                                <li>Directly impacts cost</li>
+                            </ul>
+                            <li>CloudFormation</li>
+                            <li>Identity and Access Management (IAM)</li>
+                            <li>Elastic Load Balancing (ELB)</li>
+                        </ul>
+                        <li>Microsoft Azure</li>
+                        <ul>
+                            <li>A lot of services mirror each other</li>
+                            <li>Microsoft better for Enterprises (according to the guy who works for Microsoft lol)</li>
+                            <li>Cloud products integrate with existing install base, making it easier to migrate to the cloud</li>
+                            <li>“Premier ideal hybrid solution”</li>
+                            <li>Visual Studio integrated into Azure</li>
+                            <li>Azure Active Directory can autolink with Active Directory</li>
+                        </ul>
+                        <li>Google’s Infrastructure</li>
+                        <ul>
+                            <li>Been building their own private cloud for over 15 years</li>
+                            <li>Google builds literally all their infrastructure</li>
+                            <li>Fastest global network</li>
+                            <li>Google build their public cloud on top of that infrastructure, enabling the world to build at the speed and scale of Google</li>
+                            <li>Google made the big data scene</li>
+                        </ul>
+                        <li>AWS scores highest in 4 out of 4 use cases</li>
+                        <li>The best providers have an extensive array of additional services that extend across the spectrum from IaaS to platform as a service (PaaS).</li>
+                        <li>Cloud industry is in a state of upheaval</li>
+                        <li>Get certified in a cloud</li>
+                        <li>Prices climb quick</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center animated fadeInUp delay-05s">
+            <ul class="pager">
+                <li><a href="becomeweb.html">Previous</a></li>
+                <li><a href="webjobs.html">Next</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo"><a href="#"><img src="../img/footer-logo.png" alt=""></a></div>
+            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
+            <div class="credits">
+                <!-- 
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+            -->
+                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a>                by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--COLLAPSED NAVBAR-->
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $('#test').scrollToFixed();
+            $('.res-nav_click').click(function () {
+                $('.main-nav').slideToggle();
+                return false
+            });
+        });
+
+    </script>
+
+    <!--EASING EFFECTS-->
+    <script type="text/javascript">
+        $(window).load(function () {
+
+            $('.main-nav li a, .servicelink').bind('click', function (event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 102
+                }, 1500, 'easeInOutExpo');
+                /*
+                if you don't want to use the easing effects:
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000);
+                */
+                if ($(window).width() < 768) {
+                    $('.main-nav').hide();
+                }
+                event.preventDefault();
+            });
+        })
+
+    </script>
+
+</body>
+
+</html>
