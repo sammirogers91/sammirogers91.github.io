@@ -77,59 +77,57 @@
                         <div class="panel-body">
                             <h4 class="text-left">The Value of Structure</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Semantics - structuring in a way that illustrates meaning of the content</li>
+                                <li>There are people using assistive technology and machines, so actual structure of page needs to convey meaning of content</li>
                             </ul>
                             <h4 class="text-left">Controlling Document Outlines</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Important</li>
+                                <li>HTML5 has new elements: nav, article, section, aside</li>
+                                <li>Aside - related to content on page but not necessary in order to complete list</li>
+                                <li>Created through HTML5 outlining algorithm</li>
                             </ul>
                             <h4 class="text-left">The Nav Element</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>https://w3.org/TR/html5</li>
+                                <li>If you have multiple links inside nav element, should order them in a list
+                                        Intended for major navigation blocks only
+                                        </li>
+                                <li>Screenreader can skip over it or go directly to it</li>
+                                <li>Isn’t really needed for groups of links that aren’t navigational links that link to things within your own site</li>
                             </ul>
                             <h4 class="text-left">The Article Element</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Forum posts, blog entries, etc</li>
+                                <li>Think of it as article of clothing - individual elements that can stand alone</li>
+                                <li>Only use if content can stand alone or be syndicated</li>
                             </ul>
                             <h4 class="text-left">The Section Element</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Generic section of document or application</li>
+                                <li>Thematic group of content with a heading</li>
+                                <li>Chapters, tabbed pages, numbered sections of a thesis, etc</li>
                             </ul>
                             <h4 class="text-left">The Aside Element</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Designed to represent related content</li>
+                                <li>Represented as sidebars in printed typography</li>
+                                <li>Tangentially related content</li>
+                                <li>Not absolutely necessary but related, info that might be replaced or deleted at some point in future</li>
                             </ul>
                             <h4 class="text-left">The Div Element</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Were used to divide up content and class or ID tags were used to define content</li>
+                                <li>Used for grouping content</li>
+                                <li>No special meaning at all</li>
+                                <li>Anonymous grouping element</li>
                             </ul>
                             <h4 class="text-left">Using WAI-ARIA Roles</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>Web Accessibility Initiative - Accessible Rich Internet Applications</li>
+                                <li>More commonly referred to ARIA</li>
+                                <li>Landmark role attribute</li>
+                                <li>Make part of standard authoring process</li>
                             </ul>
                             </div>
                     </div>
@@ -143,24 +141,34 @@
                     </div>
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <h4 class="text-left">Exploring an HTML Document</h4>
+                            <h4 class="text-left">Exploring the Anchor Element</h4>
                             <ul>
-                                <li>HTML document is like a sandwich </li>
-                                <li>DOCTYPE says which type of HTML is being used</li>
-                                <li>Head and body</li>
+                                <li>Href = hypertext reference</li>
+                                <li>Target controls where page opens</li>
+                                <li>Rel describes relationship between target object and link object</li>
+                                <li>Title makes links more accessible which can be read by assistive devices and search engines; always use when creating link to another page or resource</li>
                             </ul>
-                            <h4 class="text-left">DOCTYPE Declarations</h4>
+                            <h4 class="text-left">Linking to Pages Within Your Site</h4>
                             <ul>
-                                <li>Supposed to tell browser which version of HTML to parse with</li>
-                                <li>Absolutely needed</li>
+                                <li>../ to go up a directory</li>
                             </ul>
-                            <h4 class="text-left">Understanding Content Models</h4>
+                            <h4 class="text-left">Linking to External Pages</h4>
                             <ul>
-                                <li>Define the type of content expected inside an element and control syntax rules such as element nesting</li>
-                                <li>Block level elements take up their own line</li>
-                                <li>Inline elements appear within flow of content itself</li>
-                                <li>Metadata: setting up the presentation or behavior of rest of content</li>
-                                <li>Embedded content: any content that imports other resources into the document</li>
+                                <li>To link to external site, need to know full url including protocol</li>
+                            </ul>
+                            <h4 class="text-left">Linking to Downloadable Resources</h4>
+                            <ul>
+                                <li>Nothing special, browser will download files it can’t render in browser</li>
+                                <li>To force download, put download attribute in (boolean)</li>
+                            </ul>
+                            <h4 class="text-left">Linking to Page Regions</h4>
+                            <ul>
+                                <li>Fragment identifiers allow us to jump to specific regions within document or even on another document</li>
+                                <li>FAQ, glossaries, etc</li>
+                                <li>2 step process</li>
+                                <li>If you’re going to give users the ability to jump down, need to give them ability to jump back up </li>
+                                <li>When jumping to specific region on different document: /folder#idname</li>
+                                <li>When jumping to specific region on external page: look at source code of website to find idname, then tag #idname at end of url</li>
                             </ul>
                         </div>
                     </div>
@@ -170,8 +178,8 @@
 
         <div class="text-center animated fadeInUp delay-05s">
             <ul class="pager">
-                <li><a href="chromedevtools.html">Previous</a></li>
-                <li><a href="webhosting.html">Next</a></li>
+                <li><a href="html1.html">Previous</a></li>
+                <li><a href="html3.html">Next</a></li>
             </ul>
         </div>
 
