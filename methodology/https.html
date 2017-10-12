@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
-<meta name="description" content="The difference between web sites and web apps..">
+<meta name="description" content="A look at HTTPS.">
 
-<title>Project 0 - Web Sites vs. Web Apps</title>
+<title>Project 0 - HTTPS</title>
 <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
@@ -58,31 +58,30 @@
 <!--CONTENT-->
 <section class="main-section">
 	<div class="container animated fadeInUp delay-001s">
-    	<h2>Web Sites vs. Web Apps</h2>
-        <h6>The key difference lies in functionality.</h6>
+    	<h2>HTTPS</h2>
+        <h6>The importance of having secure web content.</h6>
         
         <div class="row">
             <div class="col-sm-4 animated fadeInLeft delay-05s">
                 <h4>Instructions:</h4>
-                <p>Check out this <a href="https://skillcrush.com/2013/03/28/websites-vs-web-applications/" target="_blank">article</a> and then use the heading "Site vs App" and provide an example(s) of websites and web apps.  Write 100 words</p>
+                <p>Hello Everyone!</p>
+                <br>  
+                <p>This is a great talk about HTTPS @ Google I/O this year, on HTTPS!  I think the entire talk is worth your time, but watch at least half of the talk.  Then reply with your thoughts on the information covered and/or research any of the concepts that are new to you.</p>
                 <br>
-                <p>Tell us if you have a site or an app that you would like to build, or need to build for someone you know! Give this the heading "Build it and they will come" or something like this.  Write 150 words here and reply to two of your fellow students.</p>
+                <div class="embed-container">
+                    <iframe src="https://www.youtube.com/embed/YMfW1bfyGSY" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-sm-8 animated fadeInRight delay-05">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <h4>My response:</h4>
                         <br>
-                        <h6>Site vs. App</h6>
-                        <p>I will admit that I call just about everything with a URL a website. YouTube? Website. Facebook? Website. This bad habit has been fed by ignoring technicalities for years upon years and living in blissful ignorance. I do, however, recognize the differences between a website and a web app. A website is static, simple, and unchanging, with the end goal being to deliver information about a product or service quickly and easily. A front-end web developer would have no problem creating a website.</p>
+                        <p>I wasn't planning on watching the entire thing, but I ended up finishing it in two sittings. This is really important stuff to know, and while a lot of the topics covered were things I was familiar with, I decided to do my own research on a few things that caught my interest.</p>
                         <br>
-                        <p>A web application, on the other hand, is dynamic and changes rapidly, and has the capabilities to handle advanced user interaction in order to deliver a customized experience for each user. In addition to using front-end technologies, web apps are built and maintained with programming languages, databases, and frameworks. A full stack developer would be the person I would hire to build a web application for me.</p>
+                        <p>For the fun of it, I checked out SSLLabs.com and ran a few sites through their quality check. Most sites, as expected, turned out an A rating, however WebAdvisor ended up with a <a href="http://i.imgur.com/vNCokjh.png" target="_blank">big, fat F</a>. I decided to check it out using the developer tools in Chrome, and it came up with a much more <a href="http://i.imgur.com/K4sAqwz.png" target="_blank">positive assessment</a> with the exception of using an obsolete cipher (which was also noted in <a href="http://i.imgur.com/mbfqEk2.png" target="_blank">SSLLabs' assessment</a>. Upon further inspection, and I may not be interpreting the information correctly because I'm still a noob, I learned that SSLLabs assigned the site an F because of alleged susceptibility to something known as the <a href="https://blog.qualys.com/securitylabs/2016/03/04/ssl-labs-drown-test-implementation-details">DROWN vulnerability</a>.</p>
                         <br>
-                        <br>
-                        <h6>"Whatever good things we build end up building us."</h6>
-                        <p>I may have a need for a portfolio website sometime in the near future. Ideally I would like to have my own domain name, because for years I have been using a site (or web app??) called DeviantArt. Frankly, DeviantArt has become a cesspool of crud over the years, with no real way to filter past the thousands of submissions of <s>edgy anime characters drawn on binder paper by 12 year-olds,</s> to get to the professional artists who... well, do art for a living. I know this sounds snobby, and I once was a kid drawing anime characters on binder paper, but if I show a potential client a link to my DeviantArt portolio, there are a lot of distractions on the page that can be avoided by having a sleek, clean, professional website.</p>
-                        <br>
-                        <p>Other than that, I don't really have need or know anyone in need of a web app. I decided to look up a few "beginner" projects that I'm keen to check out.</p>
+                        <p>Back to the video, I got sort of lost in the information (I guess I may have zoned out a few times) and so at the end I looked up how to secure your site using HTTPS and found Google's nice little <a href="https://support.google.com/webmasters/answer/6073543?hl=en" target="_blank">instructional piece</a>. that sort of summarizes a lot of what was explained in the presentation. This is something every developer should know how to do and know why it's so important.</p>
                     </div>
                 </div>
             </div>
@@ -91,8 +90,8 @@
     
     <div class="text-center animated fadeInUp delay-05s">
             <ul class="pager">
-                <li><a href="..index.html#methodology">Back to main</a></li>
-                <li><a href="https.html">Next</a></li>
+                <li><a href="sitesvsapps.html">Previous</a></li>
+                <li><a href="optimize.html">Next</a></li>
             </ul>
     </div>
 </section>
