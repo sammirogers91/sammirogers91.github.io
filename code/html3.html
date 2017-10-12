@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <meta name="description" content="Lecture notes from HTML Essential Training: part 3.">
+
+    <title>Project 0 - HTML Essential Training 3</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600'
+        rel='stylesheet' type='text/css'>
+
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+    <script type="text/javascript" src="../js/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="../js/classie.js"></script>
+
+    <!-- =======================================================
+    Theme Name: Knight
+    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+
+</head>
+
+<body>
+    <!--LANDING PAGE-->
+
+
+    <!--NAV BAR-->
+    <nav class="main-nav-outer" id="test">
+        <div class="container">
+            <ul class="main-nav">
+                <li><a href="../index.html#industry">The Industry</a></li>
+                <li><a href="../index.html#tools">The Tools</a></li>
+                <li class="small-logo"><a href="../index.html#intro"><img src="../img/small-logo.png" alt=""></a></li>
+                <li><a href="../index.html#code">The Code</a></li>
+                <li><a href="../index.html#methodology">The Methodology</a></li>
+            </ul>
+            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!--CONTENT-->
+    <section class="main-section">
+        <div class="container animated fadeInUp delay-001s">
+            <h2>HTML Essential Training: Part III</h2>
+            <h6>Styling and lists.</h6>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                  Creating Lists</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <h4 class="text-left">Unordered Lists</h4>
+                            <ul>
+                                <li>Grouping content</li>
+                                <li>Can nest them</li>
+                            </ul>
+                            <h4 class="text-left">Ordered Lists</h4>
+                            <ul>
+                                <li>Numbers instead of bullets</li>
+                                <li>Can start at different number used start=”#”</li>
+                                <li>Can reverse list using boolean attribute reversed</li>
+                            </ul>
+                            <h4 class="text-left">Definition Lists</h4>
+                            <ul>
+                                <li>Types that consist of two parts for each item: term and description</li>
+                                <li>Also called description lists</li>
+                                <li>Order most definitely matters</li>
+                                <li>Terms usually rendered as top-level items and definitions are inset</li>
+                                <li>Glossaries, FAQs, dictionaries, etc.</li>
+                            </ul>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                  Controlling Styling</a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <h4 class="text-left">HTML and CSS</h4>
+                                    <ul>
+                                        <li>CSS is presentational syntax</li>
+                                        <li>Selectors, properties, values</li>
+                                    </ul>
+                                    <h4 class="text-left">Creating Inline Styles</h4>
+                                    <ul>
+                                        <li>Inline styles are usually applied to a single element and included in HTML code</li>
+                                        <li>Colon assigns value, end with a semicolon</li>
+                                        <li>Frowned upon because it’s not very efficient at all</li>
+                                        <li>Used for emails and scripting</li>
+
+                                    </ul>
+                                    <h4 class="text-left">The Style Element</h4>
+                                    <ul>
+                                        <li>Element selector {}</li>
+                                        <li>Much more flexible</li>
+                                        <li>Selectors change all elements referenced</li>
+                                        <li>.alert is a class selector that finds all elements with class attributes</li>
+                                        <li>H2.alert says to find element with specific class</li>
+                                    </ul>
+                                    <h4 class="text-left">Controlling Typography</h4>
+                                    <ul>
+                                        <li>Hexadecimal notation breaks down rgb between values of 0 and 255</li>
+                                        <li>Fallback fonts go after main font in font-family</li>
+                                        <li>Font-size em is relative</li>
+                                        <li>When margins are set, it goes clockwise</li>
+                                        <li>Whenever there’s a conflict, the more specific rule wins</li>
+                                    </ul>
+                                    <h4 class="text-left">Adding Color</h4>
+                                    <ul>
+                                        <li>Hexadecimal notation breaks down rgb between values of 0 and 255</li>
+
+                                    </ul>
+                                    <h4 class="text-left">Externalizing Styles</h4>
+                                    <ul>
+                                        <li>For stylesheets that apply to entire website</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center animated fadeInUp delay-05s">
+                    <ul class="pager">
+                        <li><a href="html2.html">Previous</a></li>
+                        <li><a href="bootstrap.html">Next</a></li>
+                    </ul>
+                </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo"><a href="#"><img src="../img/footer-logo.png" alt=""></a></div>
+            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
+            <div class="credits">
+                <!-- 
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+            -->
+                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a>                by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--COLLAPSED NAVBAR-->
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $('#test').scrollToFixed();
+            $('.res-nav_click').click(function () {
+                $('.main-nav').slideToggle();
+                return false
+            });
+        });
+    </script>
+
+    <!--EASING EFFECTS-->
+    <script type="text/javascript">
+        $(window).load(function () {
+
+            $('.main-nav li a, .servicelink').bind('click', function (event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 102
+                }, 1500, 'easeInOutExpo');
+                /*
+                if you don't want to use the easing effects:
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000);
+                */
+                if ($(window).width() < 768) {
+                    $('.main-nav').hide();
+                }
+                event.preventDefault();
+            });
+        })
+    </script>
+
+</body>
+
+</html>
