@@ -481,10 +481,10 @@ cite {
   color: #2b542c;
 }
 .text-info {
-  color: #31708f;
+  color: gray;
 }
 .text-info:hover {
-  color: #245269;
+  color: gray;
 }
 .text-left {
   text-align: left;
