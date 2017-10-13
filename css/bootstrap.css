@@ -4370,12 +4370,15 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .jumbotron {
+  background-image: url("../img/indeximg.jpg");
+  background-size: cover;
   padding: 30px;
   margin-bottom: 30px;
   font-size: 21px;
   font-weight: 200;
+  font-family: "Helvetica Neue";
   line-height: 2.1428571435;
-  color: inherit;
+  color: white;
   background-color: #eeeeee;
 }
 .jumbotron h1,
