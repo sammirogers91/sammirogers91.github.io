@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <meta name="description" content="Lecture notes from Web Development Foundations: Web Technologies part 2.">
+
+    <title>Project 0 - Web Development Foundations 2</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600'
+        rel='stylesheet' type='text/css'>
+
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="../css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+    <script type="text/javascript" src="../js/jquery.1.8.3.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="../js/classie.js"></script>
+
+    <!-- =======================================================
+    Theme Name: Knight
+    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+
+</head>
+
+<body>
+    <!--LANDING PAGE-->
+
+
+    <!--NAV BAR-->
+    <nav class="main-nav-outer" id="test">
+        <div class="container">
+            <ul class="main-nav">
+                <li><a href="../index.html#industry">The Industry</a></li>
+                <li><a href="../index.html#tools">The Tools</a></li>
+                <li class="small-logo"><a href="../index.html#intro"><img src="../img/small-logo.png" alt=""></a></li>
+                <li><a href="../index.html#code">The Code</a></li>
+                <li><a href="../index.html#methodology">The Methodology</a></li>
+            </ul>
+            <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!--CONTENT-->
+    <section class="main-section">
+        <div class="container animated fadeInUp delay-001s">
+            <h2>Web Development Foundations: Web Technologies part II</h2>
+            <h6>Media and back-end technologies.</h6>
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                  Front-End Technology</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <h4 class="text-left">Common Image Types</h4>
+                            <ul>
+                                <li>Jpg, gif, png, svg - most commonly used web graphics</li>
+                                <li>Common image concerns</li>
+                                <li>JPEG - Joint Photographic Experts Group</li>
+                                <li>GIF - Graphics Interchange Format</li>
+                                <li>PNG - Portable Network Graphics</li>
+                                <li>SVG - Scalable Vector Graphics</li>
+                            </ul>
+                            <h4 class="text-left">What is an API?</h4>
+                            <ul>
+                                <li>Application programing interface</li>
+                                <li>Set of instructions and standards for accessing services or components of a specific system</li>
+                                <li>Makes it easier for developers to use an application or to make services publicly available
+                                    for anyone who wants to use them</li>
+                                <li>Websites can leverage power of larger online applications to offer services and functionality
+                                    far beyond their normal capabilities</li>
+                            </ul>
+                            <h4 class="text-left">HTML5 APIs</h4>
+                            <ul>
+                                <li>Plugins were created to get around HTML’s limitations</li>
+                                <li>WHATWG created HTML5, then got supported by W3C</li>
+                                <li>Media API</li>
+                                <li>Drag and Drop API</li>
+                                <li>App Cache API</li>
+                                <li>Geolocation API</li>
+                                <li>Canvas API</li>
+                                <li>Designers can now build complex front-end interfaces with HTML, CSS, and JS that function
+                                    more like applications than websites</li>
+                            </ul>
+                            <h4 class="text-left">Web Fonts</h4>
+                            <ul>
+                                <li>Arial, Verdana, Georgia were used back when we could only use widely used system fonts</li>
+                                <li>Technology that allows for the downloading and temporary installation of fonts within the
+                                    browser</li>
+                                <li>Most frequently used to describe the CSS @font-face rule</li>
+                                <li>How web fonts rule</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                  Back-End Technology</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <h4 class="text-left">Server-Side Scripting</h4>
+                            <ul>
+                                <li>Runs off web server</li>
+                                <li>Professing forms, managing online purchases, registering user, booking hotels rooms</li>
+                                <li>Used to be done through CGI (common gateway interface) to run C+ or PERL on websites</li>
+                                <li>Now PHP, JAVA, .NET, CFML is used</li>
+                                <li>Scripts run on server before content is seen by end user</li>
+                            </ul>
+                            <h4 class="text-left">The Importance of PHP</h4>
+                            <ul>
+                                <li>Had greatest impact</li>
+                                <li>Free and open source and attracted wide community of developers</li>
+                                <li>Paired with open source tools Linux, Apache and mySQL, became backbone of millions of sites across the world</li>
+                                <li>Wordpress is built in PHP</li>
+                                <li>Embedded within page’s HTML</li>
+                            </ul>
+                            <h4 class="text-left">Other Popular Server Languages</h4>
+                            <ul>
+                                <li>JSP - Java Server Pages</li>
+                                <li>.NET: Visual Basic .NET</li>
+                                <li>ColdFusion</li>
+                                <li>Python</li>
+                                <li>Ruby</li>
+                            </ul>
+                            <h4 class="text-left">Dealing With Data</h4>
+                            <ul>
+                                <li>Can be stored locally on client, in simply structured text files or within a database</li>
+                                <li>Depends on type of data that needs to be saved and retrieval and usage</li>
+                                <li>Cookies are written by browsers that can store small items like user prefs or session IDs</li>
+                                <li>HTML5 introduced web storage API</li>
+                                <li>XML - extensible markup language</li>
+                            </ul>
+                            <h4 class="text-left">Using SQL Databases</h4>
+                            <ul>
+                                <li>Structured Query Language</li>
+                                <li>Standard language for managing and retrieving information from databases</li>
+                                <li>SQL queries can be used to parse and use data within application</li>
+                                <li>SQL syntax is simple and logical</li>
+                                <li>There are multiple versions of SQL, each with its own extensions</li>
+                            </ul>
+                            <h4 class="text-left">Content Management Systems</h4>
+                            <ul>
+                                <li>Application that helps control creation, management, publishing and archiving of content</li>
+                                <li>Can create groups of users</li>
+                                <li>Some CMS are hosted online and only require an account to start building hosted sites</li>
+                                <li>Other CMS can be installed on your own web server</li>
+                                <li>Joomla, Drupal, Movable Type, ModX, Radiant, WordPress, ExpressionEngine</li>
+                            </ul>
+                            <h4 class="text-left">Content Delivery Networks</h4>
+                            <ul>
+                                <li>CDN</li>
+                                <li>System for delivery content over a distributed network of servers</li>
+                                <li>Network of servers all over the world holding same content, and can make delivery of content faster by using closest server</li>
+                                <li>Largely used to serve static resources such as CSS and JS libraries and media files</li>
+                                <li>Using Google’s Hosted Libraries reduces load from your server, speeds the delivery of jQuery to the client, and increases the likelihood that the client will have jQuery cached</li>
+                            </ul>
+                            <h4 class="text-left">Cloud Services</h4>
+                            <ul>
+                                <li>Distributed network of computers that can perform tasks by taking advantage of the scale and power of the network</li>
+                                <li>Usually refers to distributed processes over the internet</li>
+                                <li>Services usually accessed through apps</li>
+                                <li>Ruby, .NET, Java and JS used to develop</li>
+                                <li>Need large and complex server structures and need to be scalable</li>
+                            </ul>
+                            <h4 class="text-left">What is GitHub?</h4>
+                            <ul>
+                                <li>Online distribution service that allows users to store repositories online that can be version controlled and shared by users</li>
+                                <li>Built around Git, an open source version control system by creator of Linux</li>
+                                <li>Allows you to manage projects, publish files and store revisions</li>
+                                <li>Offers both free and commercial plans</li>
+                                <li>Git is command line tool</li>
+                            </ul>
+                            <h4 class="text-left">JavaScript Libraries</h4>
+                            <ul>
+                                <li>Collection of pre-written JS code that makes it easier to perform targeted tasks</li>
+                                <li>JS libraries extend the functionality of native JS by adding methods and values for commonly performed tasks</li>
+                                <li>Some libraries are extremely focused like Date.js</li>
+                                <li>Others like jQuery have much broader focus</li>
+                                <li>To use, need to include link to it in HTML</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="text-center animated fadeInUp delay-05s">
+            <ul class="pager">
+                <li><a href="webtech1.html">Previous</a></li>
+                <li><a href="../index.html#intro">Return to main</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo"><a href="#"><img src="../img/footer-logo.png" alt=""></a></div>
+            <span class="copyright">&copy; Knight Theme. All Rights Reserved</span>
+            <div class="credits">
+                <!-- 
+                All the links in the footer should remain intact. 
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Knight
+            -->
+                <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a>                by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--COLLAPSED NAVBAR-->
+    <script type="text/javascript">
+        $(document).ready(function (e) {
+            $('#test').scrollToFixed();
+            $('.res-nav_click').click(function () {
+                $('.main-nav').slideToggle();
+                return false
+            });
+        });
+    </script>
+
+    <!--EASING EFFECTS-->
+    <script type="text/javascript">
+        $(window).load(function () {
+
+            $('.main-nav li a, .servicelink').bind('click', function (event) {
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - 102
+                }, 1500, 'easeInOutExpo');
+                /*
+                if you don't want to use the easing effects:
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000);
+                */
+                if ($(window).width() < 768) {
+                    $('.main-nav').hide();
+                }
+                event.preventDefault();
+            });
+        })
+    </script>
+
+</body>
+
+</html>
